@@ -1,13 +1,7 @@
-# KO Evidence-Aware — Reproducibility Package
+# KO Evidence-Aware — Public Reproducibility Package
 
-The complete V7.1 reproducibility package is attached to the GitHub Release:
+Download the curated V7.1 reproducibility archive from the [latest GitHub Release](https://github.com/woxiu346-bit/KO-Evidence-Aware-Reproducibility/releases/latest/download/KO_Evidence-Aware_Public_Reproducibility_v7.1.0.zip).
 
-**[Download the complete package](https://github.com/woxiu346-bit/KO-Evidence-Aware-Reproducibility/releases/latest/download/KO_Evidence-Aware_GitHub_Ready.zip)**
+The archive includes analysis code, licensed or provenance-documented inputs, source manifests, figures, publication tables, selected analytical outputs, and validation scripts. It excludes manuscript drafts and templates, author Word files, internal audit material, and run logs. The public package build did not rerun the analyses.
 
-Download and extract the ZIP, then open `KO_V7_1/Reproducibility/README.md` (English) or `KO_V7_1/Reproducibility/README_中文.md` (中文) for setup and run instructions.
-
-The package contains the analysis code, frozen inputs and metadata, results, figures, publication tables, validation records, and manuscript reconstruction materials. It includes a data dictionary, source manifest, checksums, and upstream license notices.
-
-One upstream Ming-Qing corpus exceeds GitHub's normal per-file limit and is not embedded. The package documents its fixed source, expected size, and SHA256, and includes a script to retrieve and verify it before a full raw-data rerun.
-
-The repository is private. Review the study's sharing and anonymity requirements before changing its visibility.
+Start with `KO_V7_1/Reproducibility/README.md` or `README_中文.md`. The large Ming-Qing corpus and CHisIEC raw text are not bundled. Dataset licenses and attribution are resource-specific; review the package's `LICENSES/` notices before reuse.
